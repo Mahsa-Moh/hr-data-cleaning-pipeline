@@ -3,31 +3,6 @@
 A complete, end-to-end **data cleaning and validation pipeline** for HR datasets, implemented in Python using `pandas`.
 
 This project takes a raw HR dataset and transforms it into a fully cleaned, validated, and structured dataset ready for analytics or modeling.
-
----
-
-## 📁 Project Structure
-
-```
-hr-data-cleaning-pipeline/
-│
-├── data/
-│   └── raw/
-│       └── hr_raw.csv           # only raw data is versioned in Git
-│
-├── src/
-│   └── pipeline.py              # main cleaning & validation script
-│
-└── README.md
-```
-
-You can optionally ignore generated files:
-
-```
-data/interim/
-data/processed/
-```
-
 ---
 
 ## 🔄 Pipeline Overview (7 Steps)
@@ -140,20 +115,3 @@ pip install pandas
 ```
 
 ---
-
-## 📦 Recommended Files
-
-### ✔ `.gitignore`
-
-```
-data/interim/
-data/processed/
-__pycache__/
-*.ipynb_checkpoints
-```
-
-### ✔ `requirements.txt`
-
-```
-pandas
-```
